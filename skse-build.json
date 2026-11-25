@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "name": "BunnyHopperOfSkyrim",
+  "version": "1.1.0",
+  "commonLib": {
+    "version": "16.11.1"
+  },
+  "buildSystem": "cmake",
+  "requireMsvc": true,
+  "requirePdb": true,
+  "clean": false,
+  "preBuildScript": "build-hooks/prebuild.ps1",
+  "postBuildScript": "build-hooks/postbuild.ps1",
+  "cmake": {
+    "configureArgs": [
+      "-S", ".",
+      "-B", "build/release",
+      "-G", "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release"
+    ],
+    "buildArgs": [
+      "--build", "build/release",
+      "--target", "BunnyHopperOfSkyrim", "bunnyhopper-tests",
+      "--parallel"
+    ]
+  },
+  "artifacts": {
+    "dll": "build/release/BunnyHopperOfSkyrim.dll",
+    "pdb": "build/release/BunnyHopperOfSkyrim.pdb"
+  },
+  "package": {
+    "enabled": true,
+    "distDirectory": "dist",
+    "output": "${Name}_Universal_SE-AE_TEST.zip",
+    "copyPdbToSymbols": true,
+    "symbolsDirectory": "symbols",
+    "files": [
+      {
+        "source": "${DLL}",
+        "destination": "SKSE/Plugins/BunnyHopperOfSkyrim.dll"
+      },
+      {
+        "source": "BunnyHopperOfSkyrim.json",
+        "destination": "SKSE/Plugins/BunnyHopperOfSkyrim.json"
+      }
+    ]
+  },
+  "validation": {
+    "privacy": true,
+    "skseDeclaration": true,
+    "structDependent": true,
+    "requireAddressLibraryV5": true,
+    "cmakeCommonLibPreflight": true
+  }
+}

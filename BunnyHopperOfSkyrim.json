@@ -1,0 +1,40 @@
+{
+  "globalSpeedMult": 1.0,
+  "maxSpeed": 450.0,
+  "misstepAllowed": 4,
+
+  "baseSpeedBoost": 1.0,
+  "baseSpeedMult": 1.0,
+
+  "minStrafeAngle": 35.0,
+  "maxStrafeAngle": 95.0,
+  "strafeDeadzone": 35.0,
+  "strafeSpeedMult": 0.5,
+
+  "minHeightLaunch": 140.0,
+  "heightLaunchMult": 0.5,
+
+  "crouchSpeedBoost": 32.0,
+  "crouchBoostMult": 1.0,
+  "crouchBoostCooldown": 6,
+
+  "ramDamage": 5.0,
+  "ramDamageMult": 0.3,
+  "ramSpeedThreshold": 220.0,
+  "ramSpeedReduction": 0.5,
+
+  "enableJumpFeedback": true,
+  "enableFovZoom": true,
+  "enableTremble": false,
+
+  "enableHopCounter": false,
+  "enableHighscoreCounter": false,
+  "hopCounterHideWhenIdle": true,
+  "hopCounterPosX": 50.0,
+  "hopCounterPosY": 14.0,
+  "hopCounterScale": 1.2,
+  "highscoreCounterPosX": 50.0,
+  "highscoreCounterPosY": 20.0,
+  "highscoreCounterScale": 1.0,
+  "hopHighscore": 0
+}

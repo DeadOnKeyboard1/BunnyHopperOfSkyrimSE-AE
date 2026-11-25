@@ -1,0 +1,36 @@
+NOTICE — Third-Party & Upstream Copyright Notices
+
+1. Original BunnyHopperOfSkyrim Source
+   Copyright (c) 2020 DK
+   Originally distributed under the MIT License:
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+2. Combined Port Licensing
+   This Universal SE/AE port is built with CommonLibSSE-NG (alandtse/CommonLibSSE-NG,
+   release 16.11.1, commit 5298302831d03a01b3b406f4b7b8128ee3bd7a44) and is licensed
+   as a combined work under the GNU General Public License v3.0 or later (see LICENSE)
+   with the Modding Exception and GPL-3.0 Linking Exception (see EXCEPTIONS.md).
+   CommonLibSSE-NG incorporates original CommonLibSSE work (Copyright (c) 2018
+   Ryan-rsm-McKenzie, MIT License).
+
+3. Optional UI Integration & Settings Helpers
+   - Json2Settings (MIT License, original helper by Ryan-rsm-McKenzie)
+   - SKSE Menu Framework API header (SKSEMenuFramework.h, LGPL-2.1, optional runtime
+     menu & HUD detection used compatibly under GPL-3.0-or-later / LGPL-2.1 Sec. 3)
